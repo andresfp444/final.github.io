@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos del carrusel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos de los paneles */
+.panel {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.panel h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.panel h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.panel p {
+    margin-bottom: 20px;
+}
+
+.panel img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.panel button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.panel button:hover {
+    background-color: #555;
+}
+
+.panel form {
+    margin-top: 20px;
+}
+
+.panel form div {
+    margin-bottom: 10px;
+}
+
+.panel form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.panel form input,
+.panel form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.panel form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.panel form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
